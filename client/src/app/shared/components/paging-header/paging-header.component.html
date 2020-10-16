@@ -1,0 +1,6 @@
+<header class="align-self-bottom">
+  <span *ngIf="totalCount && totalCount > 0">
+    Showing <strong>{{pageRangeMin}}-{{pageRangeMax}}</strong> of <strong>{{totalCount}}</strong> results
+  </span>
+  <span *ngIf="totalCount === 0">Sorry, we do not carry any {{selectedBrandName}} {{selectedTypeName}}</span>
+</header>
