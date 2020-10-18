@@ -10,3 +10,24 @@
   top: -12px;
   right: 32px;
 }
+
+nav a {
+  color: darkslategray;
+
+  &.active {
+    color: orange;
+  }
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: lightslategray;
+}
+
+.logo {
+  cursor: pointer;
+  
+  &:focus {
+    outline: none;
+  }
+}
