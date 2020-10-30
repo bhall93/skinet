@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="row">
+    <div class="col-8">
+      <app-basket-summary
+        [items]="order.orderItems"
+        [allowModify]="false"
+        [isOrder]="true"></app-basket-summary>
+    </div>
+    <div class="col-4">
+      <app-order-summary
+        [shippingPrice]="order.shippingPrice"
+        [subtotal]="order.subtotal"
+        [total]="order.total">
+      </app-order-summary>
+    </div>
+  </div>
+</div>
+
+

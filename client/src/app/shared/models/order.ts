@@ -11,7 +11,7 @@ export interface IOrder {
   buyerEmail: string;
   orderDate: string;
   shipToAddress: IAddress;
-  deliveryMethodId: string;
+  deliveryMethod: string;
   shippingPrice: number;
   orderItems: IOrderItem[];
   subtotal: number;
