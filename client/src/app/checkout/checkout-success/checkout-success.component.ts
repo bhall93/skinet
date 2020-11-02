@@ -21,4 +21,8 @@ export class CheckoutSuccessComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  viewOrder(): void {
+    this.router.navigateByUrl('/orders/' + this.order.id);
+  }
+
 }
